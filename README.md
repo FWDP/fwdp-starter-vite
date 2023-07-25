@@ -40,3 +40,4 @@ npm run test
 ```bash
 npm run build
 ```
+![image](https://github.com/directormac/vanillawithbatteries/assets/5866196/bbe43a4d-f2c2-4be4-8706-3634ae1fb7d6)
