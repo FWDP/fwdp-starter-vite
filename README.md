@@ -1,4 +1,5 @@
 # VanillaJS + Vite(est)
+![image](https://github.com/directormac/vanillawithbatteries/assets/5866196/d6c4b661-2cbd-44e7-841d-987c476d01cb)
 
 ## A template for the late night sessions with the people from FWDP
 
