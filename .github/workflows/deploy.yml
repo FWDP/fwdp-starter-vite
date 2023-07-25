@@ -21,8 +21,8 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Build
-        env:
-          BASE_PATH: '/vanillawithbatteries'
+        #env:
+        #  BASE_PATH: '/vanillawithbatteries'
 
         run: |
           npm run build  
