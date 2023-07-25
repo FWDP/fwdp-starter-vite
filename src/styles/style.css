@@ -56,12 +56,32 @@ h1 {
   filter: drop-shadow(0 0 2em #f7df1eaa);
 }
 
+.footnote{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center; 
+}
+.footnote > p{
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  color: #888;
+}
+
+.fwdpLogo {
+  margin-left: 1em;
+  padding: 0;
+  height: 2em;
+}
+
 .card {
   padding: 2em;
 }
 
 .read-the-docs {
   color: #888;
+  font-size: 1.2em;
 }
 
 button {
