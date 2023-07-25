@@ -1,11 +1,9 @@
 import { defineConfig } from 'vite';
 
-// const dev = process.argv.includes('dev');
-// const dev = process.env.NODE_ENV === ''
-// const BASE = dev ? '/' : '/vanillawithbatteries';
+const BASE = '/vanillawithbatteries';
 
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/vanillawithbatteries/' : '/',
+  base: process.env.NODE_ENV === 'production' ? BASE : '/',
   build: {
     outDir: './dist',
     emptyOutDir: true,
