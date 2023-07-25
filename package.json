@@ -1,0 +1,21 @@
+{
+  "name": "vanillawithbatteries",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^9.3.1",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-html": "^7.1.0",
+    "prettier": "^3.0.0",
+    "vite": "^4.4.5",
+    "vitest": "^0.33.0"
+  }
+}
