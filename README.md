@@ -35,9 +35,24 @@ npm run dev
 npm run test
 ```
 
-### Building for Production
+### Testing for production
 
 ```bash
 npm run build
+npm run preview
 ```
+
+### This has a workflow included to deploy to github pages
+
+First we need to go to the settings of your reposity and Pages Enable it using GitHub Actions
+
 ![image](https://github.com/directormac/vanillawithbatteries/assets/5866196/bbe43a4d-f2c2-4be4-8706-3634ae1fb7d6)
+
+
+By default this will be hosted as `username.github.io/vanillawithbatteries` but you can change it to `username.github.io` 
+by changing the `BASE` property in `vite.config.js` to `/` if you are hosting it with `username.github.io`
+for sideprojects you can use `username.github.io/projectname` and change the `BASE` property in `vite.config.js` to `/projectname/`
+`projectname` is the name of your repository
+
+
+
