@@ -8,18 +8,22 @@
 ### Clone the repository
 
 ```bash
-git clone https://github.com/directormac/vanillawithbatteries
+git clone (https://github.com/FWDP/fwdp-starter-vite.git
 ```
 ### Install Dependencies
 
 ```bash
-# Go inside the Directory
-cd vanillawithbatteries
-# Reinitialize git repository
-# Remove it using git bash
+# 1. Go inside the Directory
+cd fwdp-starter-vite
+
+# 2. Reinitialize git repository
+
+# 2.a Remove it using git bash
 rm -rf .git && git init
-# Remove using powershell
+
+# 2.b Remove using powershell
 Remove-Item --path .git -Recurse -Force && git init
+
 # Install dependencies
 npm install
 ```
@@ -49,7 +53,7 @@ First we need to go to the settings of your reposity and Pages Enable it using G
 ![image](https://github.com/directormac/vanillawithbatteries/assets/5866196/bbe43a4d-f2c2-4be4-8706-3634ae1fb7d6)
 
 
-By default this will be hosted as `username.github.io/vanillawithbatteries` but you can change it to `username.github.io` 
+By default this will be hosted as `yourusername.github.io/fwdp-starter-vite` but you can change it to `yourusername.github.io` 
 by changing the `BASE` property in `vite.config.js` to `/` if you are hosting it with `username.github.io`
 for sideprojects you can use `username.github.io/projectname` and change the `BASE` property in `vite.config.js` to `/projectname/`
 `projectname` is the name of your repository
